@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neal en Luis HOME</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+           <div class="contact">
+            <div class="logo"><image src="neal%20en%20luis.png" class="logo"></image></div>
+            <div style="font-size:40px;cursor:pointer" onclick="openNav()"><image src="WEB%20NDH%20BUTTON.png" class="navbutton"></image></div>
+               <br>
+                <div class="tabel">
+    					<label>Voornaam:</label>
+    					<input type="text" id="fname" name="firstname" placeholder="Voornaam..">
+    					<label>Achternaam:</label>
+    					<input type="text" id="lname" name="lastname" placeholder="Achternaam..">
+    					<label>Onderwerp:</label>
+    					<textarea id="subject" name="subject" placeholder="Schrijf hier je bericht..." style="height:200px; font-family: 'Bebas Neue', cursive;"></textarea>
+    					<input type="submit" value="Contact Ons">
+				</div>
+            <section class="footer">
+            </section>
+                <div class="container">
+                <hr>
+                <div class="social_logos">
+                    <a href="https://www.instagram.com/nealdehoop/" target="_blank"><image src="instagram-black-icon-png-9.png" class="sl_1"></image></a>
+                    <a href="https://www.youtube.com/channel/UC4NrV9vumHUMPJ-_B-aj0zw" target="_blank"><image src="youtube-logo-png-black-4.png" class="sl_2"></image></a>
+                    <a href="https://www.behance.net/nealdehoop?tracking_source=search-all%7Cneal%20de%20hoop" target="_blank"><image src="Behance-Icon-PNG-715x715.png" class="sl_3"></image></a>
+                </div>
+                    <div class="terms_etc"><a href="index.html">HOME</a> | <a href="luis.html">LUIS PAGINA</a> | <a href="neal.html">NEAL PAGINA</a> | <a href="contact.html">CONTACT</a></div>
+                    <div class="inc_etc"><br>© 2020  -  <a href="Index.html">Neal en Luis</a></div>
+				</div>
+        
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><image src="WEB%20NDH%20X%20BUTTON.png" height="25px"></image></a>
+            <a href="Index.html">HOME</a>
+            <a href="luis.html">LUIS PAGINA</a>
+            <a href="neal.html">NEAL PAGINA</a>
+            <a href="#">CONTACT</a>
+        </div>
+        
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.display = "none";
+        }
+    </script>
+	</div>
+    </body>
+</html>
